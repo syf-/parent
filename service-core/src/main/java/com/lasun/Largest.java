@@ -5,10 +5,11 @@ package com.lasun;
  */
 public class Largest {
     public static int largest(int[] list) {
-        int index, max = Integer.MAX_VALUE;
-        for (index = 0; index < list.length - 1; index++) {
+        int index, max = 0;
+        for (index = 0; index <= list.length - 1; index++) {
             max = list[index];
         }
+        System.out.println(max);
         return max;
     }
 }
