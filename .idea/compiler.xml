@@ -25,9 +25,9 @@
         <module name="service-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="parent" target="1.6" />
-      <module name="service-core" target="1.6" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="parent" target="1.8" />
+      <module name="service-core" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
